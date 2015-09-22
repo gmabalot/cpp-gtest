@@ -1,6 +1,8 @@
 # Building GoogleTest and running exercise-gtest unit tests against
 # all code in SOURCECODE subdirectory. This Makefile is based on the
 # sample Makefile provided in the official GoogleTest GitHub Repo v1.7
+# Gabriel Mabalot
+# 9/21/15
 
 # Points to the root of Google Test. Change it to reflect where your
 # clone of the googletest repo is

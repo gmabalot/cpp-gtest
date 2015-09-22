@@ -1,5 +1,7 @@
 /**
  * Unit Tests for Rando Test
+ * Gabriel Mabalot
+ * 9/21/15
 **/
 
 #include <gtest/gtest.h>

@@ -1,7 +1,9 @@
 #include "rando.h"
 #include <stdlib.h>
-
-
+/*
+* Gabriel Mabalot
+* 9/21/15
+/
 /**
  * Worry if only one child is smiling or if all children are smiling
 **/
@@ -19,7 +21,6 @@ bool Rando::shouldWorry(bool childASmile, bool childBSmile, bool childCSmile)
 **/
 bool Rando::isDivisbleBy(int first, int second)
 {
-	//int p = (first / second);
 	if ((first % second) ==0)
 		return false;
 	else
@@ -40,7 +41,6 @@ bool Rando::isPrime(int num)
 		else
 				return false;
 	}
-	//return true;
 }
 
 /**
@@ -54,6 +54,4 @@ int Rando::nearestToZero(int a, int b)
 		return b;
 	}
 	else return a;
-
-	//return 0;
 }
